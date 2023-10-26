@@ -1,0 +1,27 @@
+bodybackground {
+    color:rgb(16, 16, 16);
+}
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgb(245, 226, 226);
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    border: none;
+    background-color: rgb(206, 214, 214);
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(155, 148, 148);
+}
